@@ -1,0 +1,14 @@
+/학교/학년/반/학생[2]
+//*[@학번="1-1-5"]
+
+/html/body/div/div/div/div/div/span/a...
+//*[@id="login"]
+
+/ -> 하위 엘리먼트를 탐색
+// -> 현재 위치를 기준으로 모든 하위 엘리먼트를 탐색
+
+
+[ 네이버 웹 사이트에서 로그인 버튼을 xpath를 활용해 찾아오기 ]
+링크 : https://www.naver.com/
+전체 경로 : /html/body/div[2]/div[3]/div[3]/div/div[2]/a
+간소화 된 XPath 경로 : //*[@id="account"]/a
